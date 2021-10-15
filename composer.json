@@ -1,0 +1,53 @@
+{
+    "name": "mohamedreda/commentable",
+    "description": "Commentable Polymorphic Eloquent Models for for Laravel 7",
+    "keywords": [
+        "laravel",
+        "framework",
+        "Laravel-Commentable",
+        "Laravel Commentable"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Reda",
+            "email": "mohamed.reda.bot@gmail.com"
+        },
+        {
+            "name": "Daniel Farag",
+            "email": "daniefarag146@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "kalnoy/nestedset": "^6.0"
+    },
+    "require-dev": {
+        "graham-campbell/testbench": "^5.0",
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MohamedReda\\Commentable\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MohamedReda\\Tests\\Commentable\\": "tests"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MohamedReda\\Commentable\\CommentableServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
